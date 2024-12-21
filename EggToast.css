@@ -1,0 +1,97 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.toast-options {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.toast-options button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.toast-options button:hover {
+    background-color: #45a049;
+}
+
+.toast-details {
+    display: none;
+    text-align: center;
+}
+
+.toast-details img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.buy-now-btn {
+    display: block;
+    text-align: center;
+    background-color: #FF6347;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    width: 150px;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+
+.buy-now-btn:hover {
+    background-color: #FF4500;
+}

@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #4CAF50; /* Green color */
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #dff1d8; /* Light green */
+}
+
+/* Page Title */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+    color: #4CAF50;
+    text-transform: uppercase;
+}
+
+/* Introductory Paragraph */
+p {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+    color: #555;
+}
+
+/* Food Truck Image */
+p img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer (Optional Styling for Consistency) */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    font-size: 14px;
+}

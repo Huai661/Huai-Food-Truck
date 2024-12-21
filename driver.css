@@ -1,0 +1,106 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #004d40;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffccbc;
+}
+
+/* Main Container */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Property Details */
+.property-details img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #004d40;
+    margin-top: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    line-height: 1.8;
+}
+
+.property-details img:last-of-type {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Button */
+.join-now-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7043;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+.join-now-btn:hover {
+    background-color: #d84315;
+    transform: scale(1.05);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
